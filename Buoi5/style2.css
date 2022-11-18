@@ -1,0 +1,63 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.all{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(backgrough.png);
+    background-size: cover
+}
+.content{
+    background-color: aliceblue;
+    width: 300px;
+    height: 600px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+}
+.login1{
+    margin: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.fa-solid fa-user{
+    margin-left: 15px;
+}
+.c1{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.enter{
+    padding-left: 25px;
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0.1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.psw{
+    margin-left: 170px;
+    color: black;
+}
+button[type=submit]{
+    background-color: rgb(207, 157, 253);
+    border-radius: 20px;
+    padding: 10px 80px;
+    border: none;
+}
+.login2{
+    margin: 30px 60px;
+}
+.icon{
+    margin: 30px 110px;
+}
+i{
+    font-size: 1.5em;
+}
