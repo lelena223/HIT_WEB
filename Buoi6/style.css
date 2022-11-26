@@ -1,0 +1,143 @@
+.document{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    display: flex;
+    width: 99%;
+    height: 100px;
+}
+.header_hd{
+    display: flex;
+    width: 99%;
+    height: 100px;
+    position: fixed;
+    background-color: white;
+}
+.header_start{
+    color: black;
+    font-size: 40px;
+    margin-right: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.header_menu{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+}
+.header_menu_chose{
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.container1{
+    width: 100%;
+    height: 800px;
+    background-image: url(themes1.jpeg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 130px;
+}
+.findoutmore{
+    background-color: orangered;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+.container2{
+    width: 100%;
+    height: 500px;
+    background-color: orangered;
+    text-align: center;
+    padding-top: 50px;
+}
+.getstarted{
+    background-color: white;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+.container3{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.content_container3_4icon{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+.content_container3_icon{
+    width: 17%;
+}
+.container4{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+img{
+    width: 33.333333333333333%;
+    height: 50%;
+}
+.container5{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: rgb(40, 39, 39);
+    justify-content: center;
+    padding-top: 90px;
+}
+.downloadnow{
+    margin-top: 70px;
+    background-color: white;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+.container6{
+    width: 100%;
+    height: 1100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+}
+input{
+    margin: 20px 30%;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    font-size: 20px;
+}
+#name{
+    margin-top: 50px;
+}
+#message{
+    padding-bottom: 140px;
+    margin-bottom: 50px;
+}
+#submit{
+    padding: 25px 50px;
+    margin: 10px 30%;
+    background-color: rgb(226, 139, 107);
+    border-radius: 30px;
+    border: none;
+}
+#sdt{
+    margin: 50px;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-top: 40px;
+    background-color: aliceblue;
+}

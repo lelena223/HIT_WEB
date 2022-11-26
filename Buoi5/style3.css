@@ -67,7 +67,8 @@ button{
 }
 .content{
     width: 40%;
-    padding: 20px 30px;
+    padding-top: 30px;
+    padding-left: 45px;
 }
 .nd{
     margin-top: 30px;
