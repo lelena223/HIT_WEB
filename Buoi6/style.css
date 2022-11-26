@@ -141,3 +141,8 @@ input{
     padding-top: 40px;
     background-color: aliceblue;
 }
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 40px;
+}

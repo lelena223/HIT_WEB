@@ -1,0 +1,65 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-color: #336699;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+#logo{
+    margin-left: 20px;
+    margin-right: 35%;
+}
+#search{
+    margin: 15px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 100px;
+}
+#cart{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+.cart{
+    margin: 20px;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.menu{
+    width: 30%;
+}
+.menu_c1{
+    list-style: none;
+}
+li{
+    border: 1px solid black;
+    padding: 10px 30px;
+    color: black;
+}
+ul li ul{
+    position: absolute;     
+    top: -1px;          
+    right: -10px;      
+    display: none;     
+}
+ul li:hover ul{
+    display: block;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 350px;
+    height: 30vh;
+}
+.box{
+    width: 350px;
+    height: 30vh;
+    border: 1px solid black;
+}
