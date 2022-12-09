@@ -146,6 +146,12 @@ table, tr, td{
     padding: 5px 40px;
 }
 @media only screen and (max-width: 767px){
+    .container1{
+        height: 1200px;
+    }
+    .container2{
+        height: 700px;
+    }
     .container3{
         height: 950px;
     }
@@ -164,8 +170,17 @@ table, tr, td{
     img{
         width: 100%;
     }
+    .container6{
+        height: 1300px;
+    }
 }
 @media only screen and (max-width: 1199px) and (min-width: 768px) {
+    .container1{
+        height: 1000px;
+    }
+    .container2{
+        height: 600px;
+    }
     .container3{
         height: 650px;
     }
@@ -183,5 +198,8 @@ table, tr, td{
     }
     img{
         width: 50%;
+    }
+    .container6{
+        height: 1200px;
     }
 }
